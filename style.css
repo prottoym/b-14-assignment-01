@@ -266,7 +266,6 @@ ul li a{
     position: absolute;
     left: 0;
     font-size: 16px;
-    line-top: 1;
 }
 
 
@@ -300,6 +299,83 @@ ul li a{
 }
 
 
+/* Schedule section */
+.schedule-section{
+    padding:100px 8%;
+    background:#ffffff;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:48px;
+    color:#111827;
+    margin-bottom:12px;
+}
+
+.section-title p{
+    color:#6b7280;
+    font-size:17px;
+}
+
+.schedule{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-bottom:100px;
+}
+
+.schedule-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:28px;
+    transition:.3s;
+}
+
+.day{
+    display:inline-block;
+    background:#2F5BEA;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:30px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.session{
+    display:flex;
+    gap:18px;
+    padding:18px 0;
+    border-bottom:1px solid #eee;
+}
+
+
+.time{
+    min-width:85px;
+    font-weight:700;
+    color:#2F5BEA;
+}
+
+.session h4{
+    margin-bottom:6px;
+    color:#111827;
+}
+
+.session p{
+    color:#6b7280;
+    font-size:15px;
+}
+
+
 /* footer part */
 .end-part{
     background-color: #0B132B;
@@ -311,7 +387,7 @@ ul li a{
     color: #FFFFFF;
 }
 
-.end-part p{
+.end-part .end-part-p{
     margin: 0;
 }
 
@@ -321,9 +397,10 @@ ul li a{
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #FFFFFF;
 }
 
-.end-part ul li a{
+.end-part ul li .end-part-p{
     color: #FFFFFF;
     text-decoration: none;
 }
