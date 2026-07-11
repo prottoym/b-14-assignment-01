@@ -298,3 +298,32 @@ ul li a{
     border: 1px solid #1E293B;
     color: #1E293B;
 }
+
+
+/* footer part */
+.end-part{
+    background-color: #0B132B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 145px;
+    color: #FFFFFF;
+}
+
+.end-part p{
+    margin: 0;
+}
+
+.end-part ul{
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.end-part ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
